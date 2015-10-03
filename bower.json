@@ -1,0 +1,30 @@
+{
+  "name": "wid-card-standard-behavior",
+  "version": "0.0.0",
+  "authors": [
+    "Aurelien Chaudagne <ouralien@gmail.com>"
+  ],
+  "description": "A behavior to allow element to be used with the wid-cards-grid element",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "behavior"
+  ],
+  "main": "wid-card-standard-behavior.html",
+  "license": "MIT",
+  "homepage": "https://github.com/wid-la/wid-card-standard-behavior/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#~1.0.1",
+    "test-fixture": "PolymerElements/test-fixture#~1.0.0"
+  }
+}

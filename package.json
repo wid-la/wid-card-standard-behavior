@@ -1,0 +1,45 @@
+{
+  "name": "wid-card-standard-behavior",
+  "version": "0.0.0",
+  "authors": [
+    "Aurelien Chaudagne <ouralien@gmail.com>"
+  ],
+  "description": "A behavior to allow element to be used with the wid-cards-grid element",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "behavior"
+  ],
+  "main": "wid-card-standard-behavior.html",
+  "license": "MIT",
+  "homepage": "https://github.com/wid-la/wid-card-standard-behavior/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "gulp test:remote"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.6",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.2.1",
+    "gulp-bg": "0.0.5",
+    "gulp-bump": "^1.0.0",
+    "gulp-crisper": "0.0.5",
+    "gulp-filter": "^3.0.1",
+    "gulp-git": "^1.4.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tag-version": "^1.3.0",
+    "jshint-stylish": "^2.0.1",
+    "polyserve": "^0.4.0",
+    "ps-node": "0.0.4",
+    "web-component-tester": "^3.1.4"
+  }
+}
